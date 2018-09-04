@@ -3,9 +3,10 @@
 <head>
 	<title>Chats</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-	<header>
+	<header class="top-header">
 		<div class="header_top">
 			<div class="header_column">
 				<i class="fa fa-fighter-jet"></i>
@@ -39,28 +40,32 @@
 		</div>
 		<ul class="chats_list">
 			<li class="chats_chat">
-				<div class="chat_content">
-					<img src="images/avatar.jpg">
-					<div class="chat_preview">
-						<h3 class="chat_user">LYNN</h3>
-						<span class="chat_last-message">Hello!! This is test message.</span>
+				<a href="chat.html">
+					<div class="chat_content">
+						<img src="images/avatar.jpg">
+						<div class="chat_preview">
+							<h3 class="chat_user">LYNN</h3>
+							<span class="chat_last-message">Hello!! This is test message.</span>
+						</div>
 					</div>
-				</div>
-				<span class="chat_date-time">
-					15:55
-				</span>
+					<span class="chat_date-time">
+						15:55
+					</span>
+				</a>
 			</li>
 			<li class="chats_chat">
-				<div class="chat_content">
-					<img src="images/avatar.jpg">
-					<div class="chat_preview">
-						<h3 class="chat_user">KakaoTalk</h3>
-						<span class="chat_last-message">You logged into KakaoTalk PC</span>
+				<a href="chat.html">
+					<div class="chat_content">
+						<img src="images/avatar.jpg">
+						<div class="chat_preview">
+							<h3 class="chat_user">KakaoTalk</h3>
+							<span class="chat_last-message">You logged into KakaoTalk PC</span>
+						</div>
 					</div>
-				</div>
-				<span class="chat_date-time">
-					Jul 29
-				</span>
+					<span class="chat_date-time">
+						Jul 29
+					</span>
+				</a>
 			</li>
 		</ul>
 		<div class="chat-btn">
@@ -85,5 +90,8 @@
 			<span class="tab-bar_title">More</span>
 		</a>
 	</nav>
+	<div class="bigScreenText">
+		<span>Please make your screen smaller.</span>
+	</div>
 </body>
 </html>

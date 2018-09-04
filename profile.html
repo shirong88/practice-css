@@ -3,9 +3,10 @@
 <head>
 	<title>Profile</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-	<header>
+	<header class="top-header top-header-transparent">
 		<div class="header_top">
 			<div class="header_column">
 				<i class="fa fa-fighter-jet"></i>
@@ -22,7 +23,9 @@
 		</div>
 		<div class="header_bottom">
 			<div class="header_column">
-				<i class="fa fa-times fa-lg"></i>
+				<a href="index.html">
+					<i class="fa fa-times fa-lg"></i>
+				</a>
 			</div>
 			<div class="header_column">
 				
@@ -32,5 +35,33 @@
 			</div>
 		</div>
 	</header>
+	<main class="profile">
+		<header class="profile_header">
+			<div class="profile_header-container">
+				<img src="images/avatar.jpg" alt="">
+				<h3 class="profile_header-title">Sroan</h3>
+			</div>
+		</header>
+		<div class="profile_container">
+			<input type="text" placeholder="sroan@naver.com">
+			<div class="profile_actions">
+				<div class="profile_action">
+					<span class="profile_action-circle">
+						<i class="fa fa-comment fa-2x"></i>
+					</span>
+					<span class="profile_action-title">My Chatroom</span>
+				</div>
+				<div class="profile_action">
+					<span class="profile_action-circle">
+						<i class="fa fa-pencil fa-2x"></i>
+					</span>
+					<span class="profile_action-title">Edit Profile</span>
+				</div>
+			</div>
+		</div>
+	</main>
+	<div class="bigScreenText">
+		<span>Please make your screen smaller.</span>
+	</div>
 </body>
 </html>

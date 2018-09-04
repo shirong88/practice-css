@@ -3,9 +3,10 @@
 <head>
 	<title>Chat</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-	<header>
+<body class="body-chat">
+	<header class="top-header chat-header">
 		<div class="header_top">
 			<div class="header_column">
 				<i class="fa fa-fighter-jet"></i>
@@ -22,7 +23,9 @@
 		</div>
 		<div class="header_bottom">
 			<div class="header_column">
-				<i class="fa fa-chevron-left fa-lg"></i>
+				<a href="chats.html">
+					<i class="fa fa-chevron-left fa-lg"></i>
+				</a>
 			</div>
 			<div class="header_column">
 				<span class="header_text">Lynn</span>
@@ -33,5 +36,39 @@
 			</div>
 		</div>
 	</header>
+	<main class="chat">
+		<div class="date-divider">
+			<span class="data-divider_text">Wednesday, August 2, 2017</span>
+		</div>
+		<div class="chat_message chat_message-from-me">
+			<span class="chat_message-time">17:55</span>
+			<span class="chat_message-body">
+				Hello!! This is a test message.
+			</span>
+		</div>
+		<div class="chat_message chat_message-to-me">
+			<img src="images/avatar.jpg" alt="" class="chat_message-avatar">
+			<div class="chat_message-center">
+				<h3 class="chat_message-username">Lynn</h3>
+				<span class="chat_message-body">
+					And this is an answer
+				</span>
+			</div>
+			<span class="chat_message-time">19:30</span>
+		</div>
+	</main>
+	<div class="type-message">
+		<i class="fa fa-plus fa-lg"></i>
+		<div class="type-message_input">
+			<input type="text">
+			<i class="fa fa-smile-o fa-lg"></i>
+			<span class="record-message">
+				<i class="fa fa-microphone fa-lg"></i>
+			</span>
+		</div>
+	</div>
+	<div class="bigScreenText">
+		<span>Please make your screen smaller.</span>
+	</div>
 </body>
 </html>
